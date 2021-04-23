@@ -165,7 +165,7 @@ function displayMenuButtons() {
   );
   //console.log("categories",categories); //çıktı: categories (4) ["all", "Korea", "Japan", "China"]
   const categoryBtns = categories.map(function (category) {
-    return `<button type="button" class="btn btn-outline-dark me-3 filter-btn" data-id="${category}">${category}</button> `
+    return `<button type="button" class="btn btn-outline-dark me-3 filter-btn btn-item" data-id="${category}">${category}</button> `
   }).join("");
   btnContainer.innerHTML = categoryBtns;
   const filterBtns = btnContainer.querySelectorAll('.filter-btn');

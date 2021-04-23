@@ -13,7 +13,9 @@ h2 {
   font-family: "Great Vibes", cursive;
   font-size: 3rem;
   text-align: center;
-  color: #ff6a23;
+  color: #3ecf62;
+  
+  
 }
 .menu {
   margin-top: 20px;
@@ -25,9 +27,12 @@ h2 {
   align-items: center;
   margin: 40px 0;
   
+  
 }
 .btn-item {
   margin-left: 15px;
+  color: red;
+  border-color: red;
 }
 
 .photo {
@@ -52,7 +57,7 @@ h2 {
 }
 
 h4 {
-  color: #e00a00;
+  color: #df544d;
 }
 
 .menu-text {
